@@ -13,6 +13,18 @@ Unlike the original paper which uses standard diffusion, this repo implements **
 * **Single File**: `train_4060.py` contains everything you need (Model, Data, Training Loop).
 * **Flow Matching**: Uses velocity-based training target ($v$-prediction) instead of noise prediction.
 
+## 📊 Performance & Requirements
+
+Designed for consumer NVIDIA GPUs.
+
+| VRAM | Batch Size | Accumulation Steps | Effective Batch | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **8GB** (Default) | 64 | 4 | 256 | ✅ Tested (Stable) |
+| **16GB** (Unlock) | 128 | 2 | 256 | 🚀 Faster |
+| **24GB+** | 256 | 1 | 256 | 🔥 Max Speed |
+
+**Note**: The script defaults to 8GB settings to prevent OOM errors. 16GB users can edit `Config` to increase speed.
+
 
 ## ⚡ Quick Start
 
