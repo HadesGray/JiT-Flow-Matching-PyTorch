@@ -47,5 +47,5 @@ On an **RTX 4060 Ti (16GB)**:
 
 ## 📄 References
 
-* [Back to Basics: Let Denoising Generative Models Denoise (JiT)](https://arxiv.org/abs/2411.XXXXX)
+* [Back to Basics: Let Denoising Generative Models Denoise (JiT)](https://arxiv.org/abs/2511.13720)
 * [Scalable Interpolant Transformers (SiT)](https://arxiv.org/abs/2401.08740)
